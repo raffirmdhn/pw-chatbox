@@ -20,7 +20,7 @@ async function sendChat(e) {
 
   // Modify profile
   const userSatu = localStorage.getItem("user-satu") || "Raffi"
-  const userDua = localStorage.getItem("user-dua") || "Arya"
+  const userDua = localStorage.getItem("user-dua") || "Ramadhan"
   clonedTemplateChat.querySelector("#profile-name").textContent = isEven ? userSatu : userDua
   clonedTemplateChat.querySelector("#profile-photo").style.backgroundColor = isEven ? "blue" : "grey"
 
